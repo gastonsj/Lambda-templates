@@ -27,7 +27,7 @@ def ChangeDesiredTask(cluster_name,service_name,desired):
 
 def lambda_handler(event, context):
     
-    ChangeDesiredTask('prueba-matias','nginx',0)
+    ChangeDesiredTask('prueba','nginx',0)
 
     return {
         'statusCode': 200,
